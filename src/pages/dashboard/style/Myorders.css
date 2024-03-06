@@ -1,0 +1,28 @@
+.mybtns  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+    
+}
+
+.mybtns div Button {
+    margin-left: 10px;
+
+}
+body {
+  /* background-image: url("/assets/background/overlay_2.jpg"); */
+  background-color: rgba(213, 243, 247, 0.603); /* Adjust the last value (0.5) for opacity */
+  background-blend-mode:darken ;
+}
+.light{
+  background-color: rgba(213, 243, 247, 0.897); /* Adjust the last value (0.5) for opacity */
+color: black;
+}
+.dark{
+  background-color: rgba(0, 0, 0, 0.719);
+  color: white;
+  
+}
+.dark div .MuiInputBase-input{
+  color: white;
+}
